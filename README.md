@@ -7,8 +7,9 @@ Takes job inputs from 'jobs.txt', each line should represent a job in the format
 Generates a schedule of jobs and prints it to the console.
 Running the Program
 To run this program, use the following command:
-
+```
 java proj3.java [scheduling_algorithm]
+```
 Replace [scheduling_algorithm] with either RR for Round Robin, SRT for Shortest Remaining Time, FB for Feedback, or all to execute all scheduling algorithms and compare their results.
 
 Example Usage
