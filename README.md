@@ -14,12 +14,14 @@ Replace [scheduling_algorithm] with either RR for Round Robin, SRT for Shortest 
 
 Example Usage
 To execute the Round Robin scheduling algorithm:
-
+```
 java proj3.java RR
+````
 To execute all scheduling algorithms and compare their results:
 
-
+```
 java proj3.java all
+```
 Note
 Ensure that the 'jobs.txt' file is in the same directory as the project and is formatted correctly. Each job should be on its own line in the format [Job Name] [Arrival Time] [Burst Time]. Example:
 
